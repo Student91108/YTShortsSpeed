@@ -1,0 +1,188 @@
+═══════════════════════════════════════════════════════════════
+  YT SHORTS SPEED CHANGER - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+📦 You have: YTShortsSpeedAndroid.zip
+
+🎯 Goal: Build an APK file using GitHub (100% free, no software install)
+
+═══════════════════════════════════════════════════════════════
+  STEP 1 — CREATE GITHUB ACCOUNT (2 minutes)
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://github.com
+2. Click "Sign up" button (top right)
+3. Enter your email, password, and username
+4. Complete the signup process
+
+═══════════════════════════════════════════════════════════════
+  STEP 2 — CREATE A NEW REPOSITORY (1 minute)
+═══════════════════════════════════════════════════════════════
+
+1. After logging in, click the "+" icon (top-right corner)
+2. Select "New repository"
+3. Fill in:
+   - Repository name: YTShortsSpeed
+   - Make it PUBLIC (very important!)
+   - Leave everything else as default
+4. Click "Create repository"
+
+═══════════════════════════════════════════════════════════════
+  STEP 3 — UPLOAD THE PROJECT (3 minutes)
+═══════════════════════════════════════════════════════════════
+
+METHOD A — Direct Upload (Easiest):
+
+1. On your new repository page, you'll see:
+   "Quick setup — if you've done this kind of thing before"
+   
+2. Look for the link that says "uploading an existing file"
+   and click it
+
+3. Unzip the YTShortsSpeedAndroid.zip file on your computer
+
+4. Drag ALL the files and folders from inside YTShortsSpeedAndroid
+   into the upload area
+
+5. Scroll down and click "Commit changes"
+
+METHOD B — Upload as ZIP:
+
+1. Keep the ZIP file as is
+2. Click "uploading an existing file"
+3. Upload the YTShortsSpeedAndroid.zip
+4. After upload, GitHub will ask you to commit
+5. Click "Commit changes"
+6. Then click on the ZIP file in your repository
+7. Click "Extract" or manually extract it
+
+═══════════════════════════════════════════════════════════════
+  STEP 4 — GITHUB BUILDS YOUR APK AUTOMATICALLY (5 minutes)
+═══════════════════════════════════════════════════════════════
+
+1. After uploading, go to the "Actions" tab at the top of your repository
+
+2. You'll see a workflow called "Build Android APK" running
+   (it will have a yellow circle 🟡 while building)
+
+3. WAIT ~5 minutes for it to complete
+   (you can refresh the page to check progress)
+
+4. When done, you'll see a GREEN CHECKMARK ✅
+
+5. Click on the completed workflow name
+
+6. Scroll down to the "Artifacts" section
+
+7. Click "YTShortsSpeed-APK" to download the APK file
+
+═══════════════════════════════════════════════════════════════
+  STEP 5 — INSTALL ON YOUR ANDROID PHONE (2 minutes)
+═══════════════════════════════════════════════════════════════
+
+1. Transfer the downloaded APK file to your phone
+   (via USB, email, cloud drive, etc.)
+
+2. On your phone:
+   Settings → Security → Install unknown apps
+   (or "Allow from this source" when you tap the APK)
+
+3. Find the APK file and tap it
+
+4. Tap "Install"
+
+5. Open the app
+
+═══════════════════════════════════════════════════════════════
+  STEP 6 — GRANT PERMISSIONS (3 minutes)
+═══════════════════════════════════════════════════════════════
+
+The app will show two permission buttons with red status dots:
+
+PERMISSION 1 — Accessibility Service:
+1. Tap "Open Accessibility Settings →"
+2. Find "YT Shorts Speed" in the list
+3. Tap it and turn it ON
+4. Confirm
+
+PERMISSION 2 — Draw Over Other Apps:
+1. Tap "Open Overlay Settings →"
+2. Find "YT Shorts Speed"
+3. Allow "Display over other apps"
+
+Both status dots should turn GREEN ✅
+
+═══════════════════════════════════════════════════════════════
+  STEP 7 — USE THE APP (10 seconds)
+═══════════════════════════════════════════════════════════════
+
+1. Toggle "2× Speed Mode" switch to ON (turns green)
+
+2. Open YouTube app → go to any Short
+
+3. LONG-PRESS anywhere on the screen for 2 seconds
+
+4. Video should play at 2× speed while you hold
+
+5. Release → back to normal speed
+
+═══════════════════════════════════════════════════════════════
+  SETTINGS (Optional)
+═══════════════════════════════════════════════════════════════
+
+You can adjust:
+
+- Hold Duration: 0.5 - 5 seconds (default 2s)
+- Speed Multiplier: 1.1× - 4× (default 2×)
+
+Settings save automatically!
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ GitHub Actions says "Failed":
+   → Make sure repository is PUBLIC, not private
+   → Check you uploaded the .github/workflows/build.yml file
+   → Look at the error log in Actions tab
+
+❌ App doesn't show in Accessibility Settings:
+   → Reinstall the APK
+   → Restart your phone
+   → Check if you have Android 5.0 or higher
+
+❌ Can't grant Overlay permission:
+   → Go to Settings → Apps → YT Shorts Speed
+   → Manually find and enable "Display over other apps"
+
+❌ Long-press doesn't change speed:
+   → This is EXPECTED — read the note below
+
+═══════════════════════════════════════════════════════════════
+  IMPORTANT NOTE
+═══════════════════════════════════════════════════════════════
+
+This app is a PROOF OF CONCEPT. It:
+✅ Detects when you're watching YouTube Shorts
+✅ Detects your long-press gesture
+✅ Shows you when it WOULD change the speed
+
+⚠️ BUT: Actually changing YouTube's playback speed requires
+   advanced techniques (root access, Xposed modules, or
+   YouTube API hooks) that weren't included in this version.
+
+The app logs when speed should change, but doesn't actually
+modify YouTube's player. To make it fully functional, you would
+need additional implementation (see README.md for details).
+
+═══════════════════════════════════════════════════════════════
+  NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+1. Read the full README.md file inside the ZIP
+2. Check the troubleshooting section above
+3. Make sure all files were uploaded to GitHub correctly
+
+═══════════════════════════════════════════════════════════════
+
+Good luck! 🚀

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YT Shorts Speed</string>
+    <string name="accessibility_desc">Detects when you open YouTube Shorts so long-press speed boost works</string>
+    <string name="enable_2x">Enable 2× Speed</string>
+    <string name="disabled_tap">Disabled — tap to enable</string>
+    <string name="enabled_msg">Enabled — long-press Shorts to boost</string>
+    <string name="status_inactive">Inactive — enable above</string>
+    <string name="status_active">Active — ready on Shorts</string>
+    <string name="settings_header">SETTINGS</string>
+    <string name="hold_duration">Hold Duration</string>
+    <string name="speed_multiplier">Speed Multiplier</string>
+    <string name="permissions_header">REQUIRED PERMISSIONS</string>
+    <string name="accessibility_perm">Accessibility Service</string>
+    <string name="accessibility_desc_short">Detects YouTube Shorts</string>
+    <string name="overlay_perm">Draw Over Apps</string>
+    <string name="overlay_desc">Captures long-press on screen</string>
+    <string name="not_granted">● Not granted</string>
+    <string name="granted">● Granted</string>
+    <string name="open_accessibility">Open Accessibility Settings →</string>
+    <string name="open_overlay">Open Overlay Settings →</string>
+    <string name="how_header">HOW IT WORKS</string>
+    <string name="step1">🎬  Open YouTube → any Short</string>
+    <string name="step2">👆  Long-press screen (hold 2 sec)</string>
+    <string name="step3">⚡  Video plays at 2× speed</string>
+    <string name="step4">✋  Release → back to normal</string>
+    <string name="footer">Only activates inside YouTube Shorts</string>
+</resources>
